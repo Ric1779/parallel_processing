@@ -3,10 +3,10 @@
 from integer import Integer
 
 def main():
-	f = Integer(5)
+	f = Integer(40)
 	print(f.get())
-	f.set(7)
-	print(f.get())
+	f.set(10)
+	print(f.fib())
 
 if __name__ == '__main__':
 	main()
