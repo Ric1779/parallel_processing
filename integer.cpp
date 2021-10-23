@@ -7,9 +7,9 @@ class Integer{
 		int get();
 		void set(int);
 		int fib();
-		int _fib(int);
 	private:
 		int val;
+		int _fib(int);
 	};
  
 Integer::Integer(int n){
